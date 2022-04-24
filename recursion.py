@@ -1,5 +1,5 @@
 #Function calling itself for n number of times
-import sysc
+import sys
 sys.setrecursionlimit(2000)
 
 i = 0
