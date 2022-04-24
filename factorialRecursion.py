@@ -1,4 +1,3 @@
-import sys
 
 def fact(n):
     if n == 0:
