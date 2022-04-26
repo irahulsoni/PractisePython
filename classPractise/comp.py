@@ -4,6 +4,7 @@ class Computer:
     # Special method using __init__  to initiate variable, like constructor in other languages, It's called automatically
     # For every object it is called at least once, so if we have 3 objects it will work 3 times automatically
     # When __init__ is called we pass at least one value with it that's name of the object  which get assigned to the self
+    # We can't have an empty class so if we want to leave an empty class use pass inside the class
     def __init__(self, cpu, ram):
         self.cpu = cpu
         self.ram = ram
