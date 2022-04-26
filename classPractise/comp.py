@@ -1,4 +1,4 @@
-# User defined class
+# User defined class which is also known as the design of the object
 class Computer:
 
     # Special method using __init__  to initiate variable, like constructor in other languages, It's called automatically
