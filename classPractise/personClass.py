@@ -1,4 +1,8 @@
 class Person:
+    # Any variable outside init is called class variable
+    gender = 'male'
+
+    # Any variable inside init is called instance variable
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -33,3 +37,6 @@ person2.update()
 
 # Using compare function to compare Person1 with Person2, person1 is calling the function, so it becomes self and person2 becomes other
 person1.compare(person2)
+
+# Updating class variables
+Person.gender = 'female'
