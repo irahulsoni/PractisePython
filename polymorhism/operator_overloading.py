@@ -3,7 +3,7 @@
 # # For ex:
 # Every time when we perform any mathematical function ex: Addition, __add__ function is performed in the back automatically and hinnden
 # This function takes 2 values to add but since we are using the class amd passing 2 or more values we can't perform such method'
-# So we overide these methods ourselves in the class and everytime we perform this method we use one in class not the one that are predefined
+# So we override these methods ourselves in the class and everytime we perform this method we use one in class not the one that are predefined
 class Student:
     def __init__(self, m1, m2):
         self.m1 = m1
