@@ -19,3 +19,10 @@ t2 = Hi()
 t1.start()
 sleep(0.2)
 t2.start()
+
+# Having main thread performing it's action in the last
+
+t1.join()
+t2.join()
+
+print("Bye")
