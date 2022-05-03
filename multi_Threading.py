@@ -1,4 +1,6 @@
+# We import thread from threading to create more threads other than just main thread
 from threading import *
+# Sleep methord is used to slow down the
 from time import sleep
 
 class hello(Thread):
