@@ -50,3 +50,10 @@ arr.max()
 #to get the index number use argman or argmin
 
 arr.argmax()
+
+#to get tge shape of array:
+arr.shape
+arr.reshape(5,5)
+
+#find datatype:
+arr.dtype
