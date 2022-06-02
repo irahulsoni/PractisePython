@@ -1,4 +1,4 @@
-from numpy import *
+from Numpy import *
 
 arr = array([
     [1,2,3,4],
