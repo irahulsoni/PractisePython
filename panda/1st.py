@@ -17,8 +17,6 @@ print(pd.Series(data = my_data, index = labels))  # or print(pd.Series(my_data, 
 print(pd.Series(arr, labels))
 
 ser1 = pd.Series([1,2,3,4],['India','Canada','USA','UK'])
-ser2 = pd.Series([1,2,5,4],['India','Canada','Italy','Germany'])
-
 # Returns the value at particular index
 print(ser1['USA'])
 

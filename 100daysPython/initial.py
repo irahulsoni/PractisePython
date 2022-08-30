@@ -1,4 +1,6 @@
 print("Welcome to the brand name generator")
-a = input("What is the name of your city")
-b = input("What is the name of your pet")
+a = input("What is the name of your city: ")
+b = input("What is the name of your pet: ")
 print("Your brand name can be "+a+" "+b)
+print("Your brand name can be {} {}".format(a, b))
+print("Your brand name can be {1} {0}".format(a, b))

@@ -10,6 +10,7 @@ class Computer(ABC):
     def process(self):
         pass
 
+
 class Laptop(Computer):
     def process(self):
         print("it's running")
